@@ -1,0 +1,20 @@
+/* NavBar */
+
+.glass-navbar {
+    background: rgba(255, 255, 255, 0.15); /* Light translucent background */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    backdrop-filter: blur(10px); /* Blur effect for glass */
+    border: 1px solid rgba(255, 255, 255, 0.25); /* Light border for glass effect */
+    color: white; /* White text for contrast */
+  }
+  
+  .glass-navbar a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px; /* Optional rounded corners */
+}
+
+h1{
+  color: blue;
+  font-size: 55px;
+}
+
