@@ -1,5 +1,4 @@
-
-<nav class="glass-navbar text-gray-900 dark:text-gray-50">
+<nav class="glass-navbar text-gray-900 dark:text-gray-50 fixed w-full">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="{{ asset($settings->logo) }}" alt="Logo" height="auto" width="180" class="mt-3">
@@ -43,9 +42,21 @@
                     <a href="#" class="block py-2 px-3 text-blue-600 hover:text-blue-800">About Us</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3 text-blue-700 hover:text-blue-800">Contact</a>
+                    <a href="#" class="block py-2 px-3 text-blue-600 hover:text-blue-800">Contact</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const navbar = document.querySelector('.glass-navbar');
+        const mainContent = document.querySelector('main');
+        if (navbar) {
+            const navbarHeight = navbar.offsetHeight;
+            mainContent.style.paddingTop = `${navbarHeight}px`;
+        }
+    });
+</script>
+

@@ -15,17 +15,6 @@ class SiteSettings extends Controller
         $settings = SiteSetting::all();
         return view('admin.site_settings.index', compact('settings'));
     }
-
-    public function display()
-    {
-        $settings = SiteSetting::first();
-        return view('users.home', compact('settings'));
-    }
-    
-    
-
-
-
     /**
      * Show the form for creating a new resource.
      */

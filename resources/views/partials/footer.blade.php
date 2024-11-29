@@ -176,9 +176,9 @@
     <div class="container px-4">
       <div class="flex flex-wrap">
         <div class="w-full text-center">
-          <p class="text-gray-800">
+          <span class="text-gray-800 text-center">
             Designed and Developed by Code Craft Web Solution
-          </p>
+          </span>
         </div>
       </div>
     </div>
