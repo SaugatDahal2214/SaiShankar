@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\SiteSettings;
 use App\Http\Controllers\SliderController;
 use Illuminate\Support\Facades\Route;
@@ -42,9 +43,13 @@ Route::middleware('auth')->group(function () {
 
     Route::resource('siteSettings', SiteSettings::class);
     Route::resource('sliders', SliderController::class);
+    Route::resource('services', ServiceController::class);
 
-    Route::get('/', [SliderController::class, 'display'])->name('home');
-
+    
 });
+
+Route::get('/', [SliderController::class, 'display'])->name('home');
+
+
 
 require __DIR__.'/auth.php';

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Service;
 use App\Models\Slider;
 use App\Models\SiteSetting;
 use Illuminate\Http\Request;
@@ -20,8 +21,9 @@ class SliderController extends Controller
     public function display()
     {
         $sliders = Slider::first();
-        $settings = SiteSetting::first(); // Fetch the first slider
-        return view('users.home', compact('sliders', 'settings'));
+        $services = Service::all();
+        // $settings = SiteSetting::first(); // Fetch the first slider
+        return view('users.home', compact('sliders', 'services'));
     }
     
     /**

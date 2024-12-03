@@ -3,12 +3,33 @@
 .glass-navbar {
     background: rgba(255, 255, 255, 0.15); /* Light translucent background */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    position: sticky;
     backdrop-filter: blur(10px); /* Blur effect for glass */
     border: 1px solid rgba(255, 255, 255, 0.25); /* Light border for glass effect */
     color: white; /* White text for contrast */
+    z-index: 1000;
+  }
+
+
+.services {
+    background: rgba(255, 255, 255, 0.15); /* Light translucent background */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    backdrop-filter: blur(10px); /* Blur effect for glass */
+    border: 1px solid rgba(255, 255, 255, 0.25); /* Light border for glass effect */
+    color: white; /* White text for contrast */
+  }
+
+  .services .flex {
+    position: relative;
+    z-index: 1;
   }
   
   .glass-navbar a:hover {
     background: rgba(255, 255, 255, 0.3);
     border-radius: 5px; /* Optional rounded corners */
+}
+
+#Services{
+  background: linear-gradient(135deg, #e8f4fa, #fef6e4);
+
 }

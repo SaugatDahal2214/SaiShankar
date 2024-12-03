@@ -17,27 +17,9 @@
                     <a href="/" class="block py-2 px-3 text-blue-600 hover:text-blue-800">Home</a>
                 </li>
                 <li>
-                    <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center py-2 px-3 text-blue-600 hover:text-blue-800">
-                        Services
-                        <svg class="w-2.5 h-2.5 ms-2.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
-                        </svg>
-                    </button>
-                    <!-- Dropdown menu -->
-                    <div id="dropdownNavbar" class="z-10 hidden font-normal bg-gray-50 divide-y divide-gray-100 rounded-lg shadow w-44">
-                        <ul class="py-2 text-sm text-gray-700">
-                            <li>
-                                <a href="#" class="block px-4 py-2 text-blue-600 hover:bg-gray-100 hover:text-blue-800">Medical Store</a>
-                            </li>
-                            <li>
-                                <a href="#" class="block px-4 py-2 text-blue-600 hover:bg-gray-100 hover:text-blue-800">Dental Clinic</a>
-                            </li>
-                            <li>
-                                <a href="#" class="block px-4 py-2 text-blue-600 hover:bg-gray-100 hover:text-blue-800">Medical Oxygen</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <a href="/" class="block py-2 px-3 text-blue-600 hover:text-blue-800">Services</a>
                 </li>
+                                    
                 <li>
                     <a href="#" class="block py-2 px-3 text-blue-600 hover:text-blue-800">About Us</a>
                 </li>
