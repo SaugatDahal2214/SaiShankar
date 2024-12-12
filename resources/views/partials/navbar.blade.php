@@ -17,11 +17,11 @@
                     <a href="/" class="block py-2 px-3 text-blue-600 hover:text-blue-800">Home</a>
                 </li>
                 <li>
-                    <a href="/" class="block py-2 px-3 text-blue-600 hover:text-blue-800">Services</a>
+                    <a href="#Services" class="block py-2 px-3 text-blue-600 hover:text-blue-800">Services</a>
                 </li>
                                     
                 <li>
-                    <a href="#" class="block py-2 px-3 text-blue-600 hover:text-blue-800">About Us</a>
+                    <a href="/about" class="block py-2 px-3 text-blue-600 hover:text-blue-800">About Us</a>
                 </li>
                 <li>
                     <a href="#" class="block py-2 px-3 text-blue-600 hover:text-blue-800">Contact</a>

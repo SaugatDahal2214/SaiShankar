@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Service;
 use App\Models\Slider;
 use App\Models\SiteSetting;
+use App\Models\Team;
 use Illuminate\Http\Request;
 
 class SliderController extends Controller
@@ -22,8 +23,9 @@ class SliderController extends Controller
     {
         $sliders = Slider::first();
         $services = Service::all();
+        $teams = Team::all();
         // $settings = SiteSetting::first(); // Fetch the first slider
-        return view('users.home', compact('sliders', 'services'));
+        return view('users.home', compact('sliders', 'services', 'teams'));
     }
     
     /**

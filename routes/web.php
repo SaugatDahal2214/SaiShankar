@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\SiteSettings;
 use App\Http\Controllers\SliderController;
+use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Request;
@@ -44,11 +45,12 @@ Route::middleware('auth')->group(function () {
     Route::resource('siteSettings', SiteSettings::class);
     Route::resource('sliders', SliderController::class);
     Route::resource('services', ServiceController::class);
-
-    
+    Route::resource('teams', TeamController::class);
+ 
 });
 
 Route::get('/', [SliderController::class, 'display'])->name('home');
+Route::get('/about', [TeamController::class, 'display'])->name('about');
 
 
 

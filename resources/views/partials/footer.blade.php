@@ -15,7 +15,7 @@
         </div>
         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4">
           <div class="mx-3 mb-8">
-            <h3 class="font-bold text-xl text-gray-800 mb-5">Services</h3>
+            <h3 class="font-bold text-xl text-red-700 mb-5">Services</h3>
             <ul>
               <li>
                 <a
@@ -59,7 +59,7 @@
         </div>
         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4">
           <div class="mx-3 mb-8">
-            <h3 class="font-bold text-xl text-gray-800 mb-5">Qucik Link</h3>
+            <h3 class="font-bold text-xl text-red-700 mb-5">Qucik Link</h3>
             <ul>
               <li>
                 <a
